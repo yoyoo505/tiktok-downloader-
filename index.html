@@ -399,7 +399,7 @@
   return;
 }
       showLoading();
-      const api = `https://api-ditss.vercel.app/download/tiktok-v2?apikey=free&url=${encodeURIComponent(url)}`;
+      const api = `https://www.ditss.biz.id/api/download/tiktok-v2?url=${encodeURIComponent(url)}`;
       try {
         const res = await fetch(api);
         if (!res.ok) {
