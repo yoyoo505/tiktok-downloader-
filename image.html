@@ -488,7 +488,7 @@
       gallerySection.style.display = "none";
       galleryScroll.innerHTML = "";
       dlLinks.style.display = "flex";
-      const api = `https://api-ditss.vercel.app/download/tiktok-v2?apikey=free&url=${encodeURIComponent(url)}`;
+      const api = `https://www.ditss.biz.id/api/download/tiktok-v2?url=${encodeURIComponent(url)}`;
       try {
         const res = await fetch(api);
         const json = await res.json();
